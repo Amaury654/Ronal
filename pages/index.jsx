@@ -10,13 +10,13 @@ function index() {
   return (
     <div>
       
-      <Image src='/img/Home.png' alt='Home' layout='fill' className=' -z-10 object-cover bg-opacity-30' />
+      <Image src='/img/Home.png' alt='Home' layout='fill' className=' -z-10 object-cover' />
 
          <NavBar />
        
         <div className='absolute top-96 left-14 md:left-24 flex flex-col justify-center items-center'>
           <p className=' text-white'>01</p>
-          <Image src='/img/frame1.png' width={0} height={0} className='w-2 h-96' />
+          <Image src='/img/frame1.png' width={100} height={100} className='w-2 h-96' />
           <p className=' text-white'>05</p>
         </div>
         <PageAnimation>
