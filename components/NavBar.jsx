@@ -14,7 +14,7 @@ function NavBar() {
       <NavBar />
       <div className='w-full'>
        
-        <nav className=' bg-gray-900 absolute h-screen w-[22%] top-0 right-10 rounded-tr-2xl opacity-95 z-20'>
+        <nav className=' bg-gray-900 absolute h-screen w-[70%] md:w-[35%] lg:w-[24%] top-0 right-0 md:right-10 md:rounded-tr-2xl opacity-95 z-20'>
             <ul className=' text-gray-500 flex flex-col gap-4 text-3xl'>
               <div className='w-full flex justify-end'>
               <div className=' text-8xl cursor-pointer mr-10 text-white mt-6' onClick={() => setShowNavBar(false)}>
