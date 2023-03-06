@@ -39,7 +39,7 @@ function index() {
       <div className=' absolute bottom-10 w-full flex justify-around items-center'>
         <div></div>
 
-       <Link href={'/servicios'}><ButtonScrollDown /> </Link>
+       <Link href={'/homeservicios'}><ButtonScrollDown /> </Link>
         
         <SocialMedia />
       </div>
