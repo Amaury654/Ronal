@@ -44,11 +44,11 @@ function NavBarServicios() {
         <nav className=' w-[85%] flex justify-between items-center'>
           <div>
       
-         <div className=' text-white hover:text-black hover:bg-gray-300 px-4 py-1 rounded-xl cursor-pointer'>
+        <Link href={'servicios'}> <div className=' text-white hover:text-black hover:bg-gray-300 px-4 py-1 rounded-xl cursor-pointer'>
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 lg:w-14 h-7 lg:h-14">
          <path strokeLinecap="round" strokeLinejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
          </svg>
-         </div>
+         </div></Link>
 
 
           </div>

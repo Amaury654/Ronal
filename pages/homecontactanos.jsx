@@ -21,8 +21,8 @@ function homecontactanos() {
                   <div className='w-[85%] max-h-[300px]'>
                     <h1 className='text-white text-5xl'>Descubre cómo podemos ayudarte.</h1>
                     <p className='text-white'>Te ofrecemos una gama de servicios para llevar tu negocio a su máximo potenciar.</p>
-                    <button className='text-white font-bold bg-transparent border-2 border-white rounded-xl px-16 py-2
-                    mt-16 hover:opacity-80'>Contactar Ahora!</button>
+                   <Link href={'/contactanos'}><button className='text-white font-bold bg-transparent border-2 border-white rounded-xl px-16 py-2
+                    mt-16 hover:opacity-80'>Contactar Ahora!</button></Link>
                  </div>
          </div>
 

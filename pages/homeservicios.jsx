@@ -38,9 +38,9 @@ function Servicios() {
             </div>
           <h2 className='text-sm text-center xl:text-3xl font-bold my-6'>Desarrollo web y móvil</h2>
           
-          <button className='bg-transparent hover:opacity-50 border-2 border-white text-white px-5 xl:px-10 py-2 rounded-2xl mb-8 md:mb-20'>
+         <Link href={'servicios'}> <button className='bg-transparent hover:opacity-50 border-2 border-white text-white px-5 xl:px-10 py-2 rounded-2xl mb-8 md:mb-20'>
           Ver servicios! 
-          </button>
+          </button></Link>
           </div>
 
           <div className='flex flex-col justify-center items-center bg-opacity-50 bg-gray-600 w-[45%] rounded-2xl'> 
@@ -49,9 +49,9 @@ function Servicios() {
             </div>
           <h2 className='text-sm text-center xl:text-3xl font-bold my-6'>Consultoria informatica</h2>
           
-          <button className='bg-transparent hover:opacity-50 border-2 border-white text-white px-5 md:px-10 py-2 rounded-2xl mb-8 md:mb-20'>
+          <Link href={'servicios'}><button className='bg-transparent hover:opacity-50 border-2 border-white text-white px-5 md:px-10 py-2 rounded-2xl mb-8 md:mb-20'>
           Ver servicios! 
-          </button>
+          </button></Link>
           </div>
 
         </div>
