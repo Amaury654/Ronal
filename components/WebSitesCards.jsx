@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import { WebSites } from './Arrays'
 
@@ -5,6 +6,8 @@ console.log(WebSites)
 function WebSitesCards() {
   return (
     <div className='w-[95%] lg:flex flex-wrap justify-start gap-10'>
+         <Image src={'/img/Paginaswebs.png'} alt='Productos' layout='fill' className=' -z-10 object-cover' />
+
          
             {WebSites.length > 0 && WebSites.map(web => (
                 <div className=' lg:w-[20%] bg-gray-800 bg-opacity-85 h-[410px] mb-5 lg:h-[420px] flex flex-col relative rounded-xl'>
