@@ -2,7 +2,7 @@ import React from 'react'
 
 function FormSolicitudServicios() {
   return (
-    <div className='flex justify-center w-[100%]'>
+    <div className='flex justify-center w-[90%] lg:w-[70%]'>
         <form className='w-[95%] lg:mt-5 flex flex-col'>
             <h2 className='text-white text-center text-4xl lg:text-left lg:text-5xl font-bold mb-8'>Solicitud de servicio</h2>
             <div className='flex gap-2 w-full justify-center'>

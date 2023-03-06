@@ -26,9 +26,9 @@ function NavBarServicios() {
            <div className='w-[50%] flex flex-col mr-10 gap-4'>
            <Link href={'/'}>  <li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>Home</li></Link>
            <Link href={'/servicios'}><li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>Servicios</li></Link>
-              <li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>Productos</li>
-              <li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>RDL</li>
-              <li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>Contact</li>
+           <Link href={'/productos'}><li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>Productos</li></Link>
+           <Link href={'/rdl'}><li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>RDL</li></Link>
+           <Link href={'/contactanos'}><li className='hover:font-bold hover:text-white cursor-pointer duration-75 text-right'>Contact</li></Link>
            </div>
               </div>
             </ul>
