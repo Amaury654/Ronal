@@ -14,15 +14,15 @@ function index() {
 
          <NavBar />
        
-        <div className='absolute top-96 left-14 md:left-24 flex flex-col justify-center items-center'>
+        <div className='absolute top-96 left-14 md:left-24 flex flex-col justify-center items-center overflow-hidden'>
           <p className=' text-white'>01</p>
-          <Image src='/img/frame1.png' width={100} height={100} className='w-2 h-96' />
+          <Image src={'/img/Frame1.png'} width={650} height={600} className='w-2 h-[200px] lg:h-[600px] mr-6' /> 
           <p className=' text-white'>05</p>
         </div>
         <PageAnimation>
         <div className='w-[100%] p-10 xl:p-0 xl:w-[65%] xl:mt-16 flex justify-center'>
           <div className=''>
-        <h1 className='text-3xl lg:text-5xl xl:text-6xl xl:leading-[4rem] font-bold text-white'>Déjenos ayudarle a mejorar la <br /> experiencia de sus clientes</h1>
+        <h1 className='text-xl lg:text-5xl xl:text-6xl xl:leading-[4rem] font-bold text-white'>Déjenos ayudarle a mejorar la <br /> experiencia de sus clientes</h1>
         <p className='mt-3 xl:mt-4 text-2xl text-gray-200'>Obtenga los mejores servicios informáticos de RDL TECHNOLOGIES</p>
           </div>
         </div>

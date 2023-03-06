@@ -9,7 +9,7 @@ import PageAnimation from './PageAnimation'
 
 function contactanos() {
   return (
-    <div>
+    <div className='relative min-h-[950px] lg:min-h-screen flex flex-col'>
 
     <Image src={'/img/Contacto.png'} width={0} height={0}  layout='fill' className='object-cover -z-10 
     bg-opacity-10 h-screen' />

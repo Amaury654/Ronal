@@ -8,7 +8,7 @@ import PageAnimation from './PageAnimation'
 
 function homeproductos() {
   return (
-    <div>
+    <div className='relative min-h-[1500px] lg:min-h-screen flex flex-col'>
         <Image src={'/img/Homeproductos.png'} alt='Productos' layout='fill' className=' -z-10 object-cover' />
         <NavBar />
 
@@ -30,17 +30,17 @@ function homeproductos() {
                  </div>
 
                     <div className='w-full flex flex-col justify-center mt-5'>
-                        <div className='flex justify-around w-[90%] gap-3'>
+                        <div className='lg:flex justify-around w-[95%] lg:w-[90%]  gap-3'>
                                
 
-                                <div className='flex justify-center items-center  flex-col w-[50%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
+                                <div className='flex justify-center items-center  flex-col w-[100%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
                                     <Image src={'/img/LaptopSettings.png'} width={100} height={100} className='w-[60px] mt-5' />
                                     <h3 className='text-white font-bold my-5'>Paginas Web</h3>
                                     <Link href={'/paginaswebs'}> <button className='mb-10 bg-transparent border-2 border-white rounded-lg text-white
                                     px-7 lg:px-16  py-1 hover:opacity-80'>Ver Ahora!</button></Link>
                                 </div>
 
-                                <div className='flex justify-center items-center  flex-col w-[50%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
+                                <div className='flex justify-center items-center mt-5 lg:mt-0  flex-col w-[100%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
                                     <Image src={'/img/DeveloperMode.png'} width={100} height={100} className='w-[60px] mt-5' />
                                     <h3 className='text-white font-bold my-5'>Aplicaciones móviles </h3>
                                     <button className='mb-10 bg-transparent border-2 border-white rounded-lg text-white
@@ -49,17 +49,17 @@ function homeproductos() {
 
                         </div>
 
-                        <div className='flex justify-around w-[90%] mt-5 gap-5'>
+                        <div className='lg:flex lg:justify-around w-[95%] lg:w-[90%] mt-5 gap-5'>
                                
 
-                                <div className='flex justify-center items-center  flex-col  w-[50%] lg:w-[40%]  rounded-xl bg-gray-600 bg-opacity-70'>
+                                <div className='flex justify-center items-center  flex-col  w-[100%] lg:w-[40%]  rounded-xl bg-gray-600 bg-opacity-70'>
                                     <Image src={'/img/LaptopSettings.png'} width={100} height={100} className='w-[60px] mt-5' />
                                     <h3 className='text-white font-bold my-5'>Sistemas informáticos  </h3>
                                     <button className='mb-10 bg-transparent border-2 border-white rounded-lg text-white
                                     px-7 lg:px-16  py-1 hover:opacity-80'>Ver Ahora!</button>
                                 </div>
 
-                                <div className='flex justify-center items-center  flex-col w-[50%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
+                                <div className='flex justify-center items-center mt-5 lg:mt-0  flex-col w-[100%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
                                     <Image src={'/img/Protect.png'} width={100} height={100} className='w-[60px] mt-5' />
                                     <h3 className='text-white font-bold my-5'>Ver todos</h3>
                                     <button className='mb-10 bg-transparent border-2 border-white rounded-lg text-white
@@ -75,6 +75,7 @@ function homeproductos() {
             </div>
 
       </PageAnimation>
+
             <div className=' absolute bottom-5 w-full flex justify-around items-center'>
         <div></div>
 

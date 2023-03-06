@@ -10,7 +10,7 @@ function WebSitesCards() {
 
          
             {WebSites.length > 0 && WebSites.map(web => (
-                <div className=' lg:w-[20%] bg-gray-800 bg-opacity-85 h-[410px] mb-5 lg:h-[420px] flex flex-col relative rounded-xl'>
+                <div className=' lg:w-[20%] bg-gray-800 bg-opacity-85 h-[410px] mb-10 lg:h-[420px] flex flex-col relative rounded-xl'>
                 <img src={web.img} alt="hola" className=' rounded-b-2xl rounded-t-md w-full h-[180px]' />
                 <h3 className='text-white text-center my-5 font-bold'>{web.title}</h3>
                 <p className='text-white text-center mb-3 text-sm px-5'>{web.description}</p>

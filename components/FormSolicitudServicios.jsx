@@ -4,16 +4,16 @@ function FormSolicitudServicios() {
   return (
     <div className='flex justify-center w-[90%] lg:w-[70%]'>
         <form className='w-[95%] lg:mt-5 flex flex-col'>
-            <h2 className='text-white text-center text-4xl lg:text-left lg:text-5xl font-bold mb-8'>Solicitud de servicio</h2>
+            <h2 className='text-white text-center text-3xl lg:text-left lg:text-5xl font-bold mb-8'>Solicitud de servicio</h2>
             <div className='flex gap-2 w-full justify-center'>
 
             <div className='w-[50%]'>
-                <label className='text-white ml-4'>Nombre Completo</label>
+                <label className='text-white ml-4'>Nombre</label>
             <input type="text" className='px-5 py-3 w-full rounded-xl outline-none text-gray-600' placeholder='Nombre Completo' />
             </div>
 
             <div className='w-[50%]'>
-            <label className='text-white ml-4'>Nombre de la empresa </label>
+            <label className='text-white ml-4'>Empresa </label>
             <input type="text" className='px-5 py-3 w-full rounded-xl outline-none text-gray-600' placeholder='Nombre de la empresa' />
             </div>
 

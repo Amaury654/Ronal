@@ -12,7 +12,7 @@ function Servicios() {
             <NavBar />
 
 
-            <div className='w-full min-h-[1250px] md:min-h-[1120px] lg:min-h-[990px] xl:min-h-[810px] flex mt-10 relative'>
+            <div className='w-full min-h-[1450px] md:min-h-[1120px] lg:min-h-[990px] xl:min-h-[810px] flex mt-10 relative'>
 
 
                 <div className='w-[10%] flex justify-end'>

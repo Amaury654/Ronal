@@ -7,7 +7,7 @@ import SocialMedia from '../components/SocialMedia'
 
 function homecontactanos() {
   return (
-    <div>
+    <div className='relative min-h-[955px] lg:min-h-screen flex flex-col'>
            <Image src={'/img/HomeContactos.png'} alt='Productos' layout='fill' className=' -z-10 object-cover' />
             <NavBar />
 
@@ -18,29 +18,29 @@ function homecontactanos() {
                     <p className='text-white'>05</p>
                 </div>
 
-                  <div className='w-[85%] max-h-[300px]'>
-                    <h1 className='text-white text-5xl'>Descubre cómo podemos ayudarte.</h1>
-                    <p className='text-white'>Te ofrecemos una gama de servicios para llevar tu negocio a su máximo potenciar.</p>
+                  <div className='w-[85%] max-h-[300px] px-2'>
+                    <h1 className='text-white text-2xl lg:text-5xl font-bold'>Descubre cómo podemos ayudarte</h1>
+                    <p className='text-white'>Te ofrecemos una gama de servicios para llevar tu negocio a su máximo potenciar</p>
                    <Link href={'/contactanos'}><button className='text-white font-bold bg-transparent border-2 border-white rounded-xl px-16 py-2
                     mt-16 hover:opacity-80'>Contactar Ahora!</button></Link>
                  </div>
          </div>
 
-         <div className='ml-3 w-[100%] lg:w-[35%] bg-red-300 relative'>
-            <div className=' absolute lg:right-0 right-12'>
+         <div className='w-[70%] lg:w-[30%] relative mx-auto'>
+            <div className=' absolute right-1 bottom-5'>
         <div className='flex items-center gap-2 mt-2'>
             <Image src={'/img/PlaceMarker.png'} width={300} height={300} className='w-[35px]' />
-            <h3 className='text-white'><span className=' font-bold mr-1'>Ubicación: </span>  Santo Domingo, Republica Dominicana </h3>
+            <h3 className='text-white text-sm lg:text-xl'><span className=' font-bold mr-1'>Ubicación: </span>  Santo Domingo, Republica Dominicana </h3>
         </div>
 
         <div className='flex items-center gap-2 mt-2'>
             <Image src={'/img/Calling.png'} width={300} height={300} className='w-[35px]' />
-            <h3 className='text-white'><span className=' font-bold mr-1'> Contacto: </span>+829-363-2762 </h3>
+            <h3 className='text-white text-sm lg:text-xl'><span className=' font-bold mr-1'> Contacto: </span>+829-363-2762 </h3>
         </div>
 
         <div className='flex items-center gap-2 mt-2'>
             <Image src={'/img/Envelope.png'} width={300} height={300} className='w-[35px]' />
-            <h3 className='text-white'><span className=' font-bold mr-1'> Correo Electrónico: </span> sevicios@rdt.do</h3>
+            <h3 className='text-white text-sm lg:text-xl'><span className=' font-bold mr-1'> Correo Electrónico: </span> sevicios@rdt.do</h3>
         </div>
         </div>
     </div>
