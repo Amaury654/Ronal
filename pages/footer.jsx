@@ -16,8 +16,8 @@ function footer() {
                     <Image src={'/img/frame5.png'} alt='Productos' width={450} height={550} className='w-5 h-[450px] lg:h-[550px]' /> 
                     </div>
                     <div className='w-[90%] min-h-[500px] lg:min-h-[600px] flex justify-center'>
-                        <div className=' absolute bottom-5 '>
-                        <Image src={'/img/logo3.png'} alt='Productos' width={450} height={300} className='w-[450px] h-[190px] ' /> 
+                        <div className=' absolute bottom-5 px-5 lg:px-0'>
+                        <Image src={'/img/logo3.png'} alt='Productos' width={450} height={300} className='w-[300px] lg:w-[450px] h-[] lg:h-[190px] ' /> 
                         <h3 className='text-white text-sm lg:text-2xl text-center font-semibold'>COPYRIGHT © 2022 RDL TECHNOLOGIES, inc | Todos los derechos reservados</h3>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ import PageAnimation from './PageAnimation'
 
 function index() {
   return (
-    <div>
+    <div className='relative min-h-[955px] lg:min-h-screen flex flex-col'>
       
       <Image src='/img/Home.png' alt='Home' layout='fill' className=' -z-10 object-cover' />
 
@@ -16,7 +16,7 @@ function index() {
        
         <div className='absolute top-96 left-14 md:left-24 flex flex-col justify-center items-center overflow-hidden'>
           <p className=' text-white'>01</p>
-          <Image src={'/img/Frame1.png'} width={650} height={600} className='w-2 h-[200px] lg:h-[600px] mr-6' /> 
+          <Image src={'/img/Frame1.png'} width={650} height={600} className='w-2 h-[400px] lg:h-[500px] mr-10' /> 
           <p className=' text-white'>05</p>
         </div>
         <PageAnimation>

@@ -5,16 +5,16 @@ import SocialMediaRow from '../components/SocialMediaRow'
 
 function rdl() {
   return (
-    <div>
+    <div className='relative lg:min-h-screen flex flex-col'>
             <Image src={'/img/RDLnosotros.png'} alt='Productos' layout='fill' className=' -z-10 object-cover' />
             <NavBar />
 
 
-            <div className='w-full min-h-[800px]  xl:min-h-[810px] flex mt-10 relative'>
+            <div className='w-full min-h-[850px]  md:min-h-[1030px] lg:min-h-full flex mt-10 relative'>
 
 
                 <div className='w-[10%] flex justify-end'>
-                <Image src={'/img/Framerservicios.png'} width={650} height={600} className='w-5 mt-5 h-[550px] lg:h-[600px]' /> 
+                <Image src={'/img/Framerservicios.png'} width={650} height={600} className='w-5 mt-5 h-[350px] lg:h-[600px]' /> 
                 </div>
 
                 <div className='w-[90%] max-h-[400px]  lg:max-h-[700px] flex justify-center relative'>

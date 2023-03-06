@@ -6,12 +6,12 @@ import SocialMediaRow from '../components/SocialMediaRow'
 
 function productos() {
   return (
-    <div>
+    <div className='relative lg:min-h-screen flex flex-col'>
             <Image src={'/img/Productos.png'} alt='Productos' layout='fill' className=' -z-10 object-cover' />
             <NavBar />
 
 
-            <div className='w-full min-h-[910px] md:min-h-[1120px] lg:min-h-[990px] xl:min-h-[810px] flex mt-10 relative'>
+            <div className='w-full min-h-[910px] md:min-h-[1030px] lg:min-h-[990px] xl:min-h-[810px] flex mt-10 relative'>
 
 
                 <div className='w-[10%] flex justify-end'>
