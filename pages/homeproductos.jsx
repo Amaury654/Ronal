@@ -36,8 +36,8 @@ function homeproductos() {
                                 <div className='flex justify-center items-center  flex-col w-[50%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
                                     <Image src={'/img/LaptopSettings.png'} width={100} height={100} className='w-[60px] mt-5' />
                                     <h3 className='text-white font-bold my-5'>Paginas Web</h3>
-                                    <button className='mb-10 bg-transparent border-2 border-white rounded-lg text-white
-                                    px-7 lg:px-16  py-1 hover:opacity-80'>Ver Ahora!</button>
+                                    <Link href={'/paginaswebs'}> <button className='mb-10 bg-transparent border-2 border-white rounded-lg text-white
+                                    px-7 lg:px-16  py-1 hover:opacity-80'>Ver Ahora!</button></Link>
                                 </div>
 
                                 <div className='flex justify-center items-center  flex-col w-[50%] lg:w-[40%] rounded-xl bg-gray-600 bg-opacity-70'>
